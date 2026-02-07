@@ -3,3 +3,10 @@
 Thumbs.db
 *.kra
 *.autosave.kra
+cd ~/Projects/muza-v2027
+curl -s https://raw.githubusercontent.com/github/gitignore/main/Global/macOS.gitignore >> .gitignore
+curl -s https://raw.githubusercontent.com/github/gitignore/main/Blender.gitignore >> .gitignore
+curl -s https://raw.githubusercontent.com/github/gitignore/main/Unity.gitignore >> .gitignore
+git add .gitignore
+git commit -m "Расширен .gitignore: macOS + Blender + Unity"
+git push
